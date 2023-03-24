@@ -1,0 +1,51 @@
+.footer {
+    background-color: black;       
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;  
+    font-weight: bold;
+    padding: 20px;
+    color: darkgray;
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #22aed1;
+    margin-bottom: 5px;
+}
+
+.footer__about-text {
+    width: 400px;
+    text-align: justify;
+    color: darkgray;
+}
+
+
+.footer i {
+    color: darkgray;
+}
+
+.footer li {
+    margin: 10px 0;
+
+}
+
+@media screen and (max-width:622px){ /*dispositivos pequenos*/
+    .footer__container{
+        text-align: center;
+    }
+    
+}
