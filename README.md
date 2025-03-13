@@ -1,27 +1,40 @@
 # Loja
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Este repositório contém o código de uma **loja virtual** desenvolvida utilizando **Angular** e **TypeScript**. A loja simula uma experiência de compra, com dados de produtos carregados a partir de uma **API local** em JSON, e com a funcionalidade de **carrinho de compras** gerenciada pelo **localStorage**.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Html**
+- **Css**
+- **TypeScript**
+- **Angular**
+- **localStorage**
+- **JSON (API local)**
 
-## Code scaffolding
+## 📂 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🛒 Carrinho de Compras
+- O carrinho de compras é simulado e gerenciado através de **localStorage**, garantindo que os itens adicionados sejam mantidos mesmo após o usuário fechar o navegador ou atualizar a página.
+- Permite adicionar e remover produtos, além de visualizar o total do carrinho.
 
-## Build
+### 🛍 Exibição de Produtos
+- Os produtos são carregados a partir de uma **API local** em JSON, contendo informações como:
+  - **Imagem do produto**
+  - **Nome**
+  - **Preço**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📂 Como Rodar o Projeto Localmente
 
-## Running unit tests
+Para executar o projeto em sua máquina, siga os passos abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone o repositório**:
+   git clone https://github.com/IvoOliveiraa/bootcamp-capgemini.git
 
-## Running end-to-end tests
+2. **Acesse a pasta do projeto**:
+  cd bootcamp-capgemini
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Instale as dependências com o npm**
+   npm install
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Execute o projeto**:
+   npm start
