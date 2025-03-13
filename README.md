@@ -28,13 +28,13 @@ Este repositório contém o código de uma **loja virtual** desenvolvida utiliza
 Para executar o projeto em sua máquina, siga os passos abaixo:
 
 1. **Clone o repositório**:
-   git clone https://github.com/IvoOliveiraa/bootcamp-capgemini.git
+ - git clone https://github.com/IvoOliveiraa/bootcamp-capgemini.git
 
 2. **Acesse a pasta do projeto**:
-  cd bootcamp-capgemini
+ - cd bootcamp-capgemini
 
 3. **Instale as dependências com o npm**
-   npm install
+ - npm install
 
 4. **Execute o projeto**:
-   npm start
+ - npm start
